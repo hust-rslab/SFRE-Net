@@ -30,7 +30,13 @@ pip install -r requirements.txt  # install
     --weights weights/last.pt \
     --imgsz 640 \
     --device 0 \
-    --source data/img \
+    --source data/img/demo_img \
     --name SFRE-Net 
 ```
+</details>
+
+<details>
+<summary>Examples of detection</summary>
+
+<img src="data/img/demo_result/det_result.png" width="1000" >
 </details>
