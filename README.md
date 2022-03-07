@@ -1,6 +1,6 @@
 # SFRE-Net: Scattering Feature Relation Enhancement Network for Aircraft Detection in SAR Images
 
-# Introduction
+## <div align="center">Introduction</div>
 Aircraft detection in synthetic aperture radar (SAR) images is a challenging task due to the discreteness of aircraft scattering characteristics, the diversity of aircraft size, and the interference of complex backgrounds. In particular, the strong scattering points of aircraft in SAR images are usually discrete, while the traditional convolution network can only obtain the local feature information, so it is difficult to model the relationship between scattering points. To address these problems, we propose a novel Scattering Feature Relation Enhancement Network (SFRE-Net). Firstly, we adopt a cascade transformer block (TRsB) structure, which can fully improve the integrity of aircraft detection results by modeling the correlation between feature points. Secondly, we design a feature adaptive fusion pyramid structure (FAFP), which can adaptively aggregate features of different levels and scales, enable the network to autonomously extract useful semantic information, and improve the multi-scale representation ability of the network. Thirdly, to improve the positioning accuracy in complex backgrounds, we design a context attention enhancement module (CAEM). Considering the discreteness of scattering characteristics, the module uses a dilated convolution pyramid structure to improve the receptive field and then captures the position of the aircraft target through the coordinate attention mechanism. A large number of experiments on the Gaofen-3 data set demonstrate the effectiveness of the proposed method and show that our algorithm is superior to the state-of-the-art detection algorithms. Our code is avaliable at https://github.com/hust-rslab/SFRE-Net.
 
 <img src="data/net/SFRE-Net.png" width="1000" >
@@ -39,12 +39,10 @@ pip install -r requirements.txt  # install
 <summary>Examples of detection</summary>
 
 <img src="data/img/demo_result/det_result.png" width="1000" >
-</details>
+</details>    
 
 
-
-
-## Cite SFRE-Net
+## <div align="center">Cite SFRE-Net</div>
 If you use SFRE-Net in your research, please cite our work by using the following BibTeX entry:
 
 ```latex
