@@ -40,3 +40,13 @@ pip install -r requirements.txt  # install
 
 <img src="data/img/demo_result/det_result.png" width="1000" >
 </details>
+
+
+
+
+## Cite SFRE-Net
+If you use SFRE-Net in your research, please cite our work by using the following BibTeX entry:
+
+```latex
+
+```
