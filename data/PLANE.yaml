@@ -1,0 +1,8 @@
+path: 
+train: [data/batch_1.txt, data/batch_2.txt, data/batch_3.txt]
+val: [data/batch_4.txt, data/batch_5.txt]
+test: 
+
+# Classes
+nc: 7  # number of classes
+names: ['A220', 'A330', 'A320/321','Boeing737-800','Boeing787','ARJ21','other'] # class names
